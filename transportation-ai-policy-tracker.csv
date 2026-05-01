@@ -1,0 +1,53 @@
+entity,region,bucket,has_dot_specific_policy,policy_origin,policy_url,date_issued,contractor_binding,notes
+Alabama (ALDOT),South,ENCOURAGE,No,State CIO (OIT),https://oit.alabama.gov/wp-content/uploads/2025/01/Artificial-Intelligence-Governance-Policy.pdf,2025-01,No,EO 738 + OIT AI Governance Policy
+Alaska (AKDOT&PF),West,ENCOURAGE,No,Governor EO,https://gov.alaska.gov/admin-orders/administrative-order-no-359/,2025,No,AO 359 + AO 360 are pro-AI directives
+Arizona (ADOT),West,ENCOURAGE,No,State CIO (ASET),https://aset.az.gov/sites/default/files/2024-03/P2000%20-%20Generative%20AI%20Policy.pdf,2024-03,No,Statewide P2000 binds ADOT
+Arkansas (ARDOT),South,SILENT,No,None,,N/A,No,AI CoE just stood up; no policy yet
+California (Caltrans),West,ENCOURAGE,No,Governor EOs (CDAO authority delegated),https://www.gov.ca.gov/wp-content/uploads/2026/03/3.30-FINAL-Trusted-AI-Procurement-EO-N-5-26.pdf,2026-03,No,Named CDAO Vidhu Shekhar with policy authority; Copilot to 18K of 23K employees; not a standalone DOT-published policy
+Colorado (CDOT),West,SILENT,No,None at DOT level,,N/A,No,SB24-205 only reaches DOT for high-risk AI
+Connecticut (CTDOT),Northeast,ENCOURAGE,No,State CIO,https://portal.ct.gov/-/media/OPM/Fin-General/Policies/CT-Responsible-AI-Policy-Framework-Final-02012024.pdf,2024-02,No,CT Responsible AI Policy AI-01
+Delaware (DelDOT),Northeast,ENCOURAGE,No,State CIO (DTI),https://webfiles.dti.delaware.gov/pdfs/pp/Generative%20Artificial%20Intelligence%20Policy.pdf,2025-07,No,Allow-list + block-list (DeepSeek out)
+District of Columbia (DDOT),Northeast,ENCOURAGE,No,Citywide OCTO,https://octo.dc.gov/page/aiml-governance-policy,2024-02,Yes,First major US city to mandate Responsible AI training for all employees + contractors
+Florida (FDOT),South,ENCOURAGE,Yes,DOT direct,https://www.hntb.com/think/think-innovation-in-motion-fdots-approach-for-artificial-intelligence-success/,2024-05,No,Procuring AI to interpret Standard Specs for Road and Bridge Construction
+Georgia (GDOT),South,ENCOURAGE,No,State CIO (GTA),https://gta-psg.georgia.gov/psg/artificial-intelligence-responsible-use-ss-23-002,2024-12,No,SB37 mandates GDOT publish own AI plan by Dec 31 2026
+Hawaii (HDOT),West,SILENT,No,None active,https://www.capitol.hawaii.gov/sessions/session2024/bills/HB2152_.HTM,2024,No,Framework still under development by ETS
+Idaho (ITD),West,SILENT,No,None active,https://its.idaho.gov/ai/,2025,No,Statewide guidance in draft
+Illinois (IDOT),Midwest,FORBID,No,State CIO (DoIT),https://doit.illinois.gov/content/dam/soi/en/web/doit/documents/support/policies/2021/20250401-DoIT-AI%20Policy-v2-%20A11Y.pdf,2025-04,No,Designate AI policy lead within 30 days
+Indiana (INDOT),Midwest,FORBID,No,State CIO (OCDO),https://www.in.gov/mph/cdo/files/State-of-Indiana-State-Agency-AI-Systems-Policy.pdf,2024-12,No,AI Readiness Questionnaire required; NIST RMF 72 sub-categories
+Iowa (Iowa DOT),Midwest,FORBID,No,State (DOM),https://dom.iowa.gov/media/785/download?inline=,2025-03,Yes,Contractors bound by Support Entity workforce clause
+Kansas (KDOT),Midwest,FORBID,No,Governor + OITS,https://www.governor.ks.gov/wp-content/uploads/2023/08/P8200.00-Generative-Artificial-Intelligence-Signed.pdf,2023-08,Yes,Contractors must disclose GenAI use in contracts
+Kentucky (KYTC),South,ENCOURAGE,No,State CIO (COT),https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-126%20Artificial%20Intelligence%20Policy.pdf,2025-03,No,SB4 codified COT authority
+Louisiana (LaDOTD),South,FORBID,No,State (OTS) + Governor EO,https://www.doa.la.gov/doa/ots/policies-and-forms/artificial-intelligence-acceptable-use-policy/,2025-09,Yes,State-approved systems are the only authorized means
+Maine (MaineDOT),Northeast,ENCOURAGE,No,State CIO (OIT),https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/GenAIPolicy.pdf,2023,No,Longest formal moratorium (June 2023, 6 months)
+Maryland (MDOT),Northeast,ENCOURAGE,No,State CIO (DoIT) + Governor EO,https://doit.maryland.gov/policies/ai/Pages/maryland-responsible-ai-policy.aspx,2025-05,No,Most formal AI governance stack
+Massachusetts (MassDOT),Northeast,ENCOURAGE,No,State CIO (EOTSS),https://www.mass.gov/policy-advisory/enterprise-use-and-development-of-generative-ai-policy,2026-02,No,First state to deploy ChatGPT enterprise across ~40K executive staff
+Michigan (MDOT),Midwest,FORBID,No,State CIO (DTMB),https://www.michigan.gov/dtmb/-/media/Project/Websites/dtmb/Law-and-Policies/Governance/State-of-MichiganDTMBAdoption-and-Usage-of-Artificial-IntelligenceGuidelines-and-Responsibilities--P.pdf,2024,No,MiSAP/ATO is the operative gate
+Minnesota (MnDOT),Midwest,FORBID,Yes,DOT direct,https://www.dot.state.mn.us/policy/it-data/it-003.html,2025-07,Yes,Strongest DOT-direct policy; cleanest contractor-binding language
+Mississippi (MDOT),South,ENCOURAGE,No,State CIO (ITS),https://www.its.ms.gov/services/innovating/AI-AUP,2025-11,No,EO 1584 Mississippi's first AI EO
+Missouri (MoDOT),Midwest,FORBID,Yes,DOT direct,https://www.modot.org/media/36548,2024,No,Names ChatGPT and Bing Chat by brand
+Montana (MDT),West,SILENT,No,None at DOT level,,2025-08,No,EO 5-2025 workforce-focused; Right to Compute Act
+Nebraska (NDOT),Midwest,PARTIAL,No,State CIO (NITC),https://nitc.nebraska.gov/docs/8-609.pdf,2024,No,Forbid/encourage hybrid via NITC 8-609
+Nevada (NDOT),West,ENCOURAGE,No,State CIO,https://www.it.nv.gov/siteassets/itnew.nv.gov/content/governance/Policy_on_the_Responsible_and_Ethical_Use_of_Artificial_Intelligence_in_Nevada_-_CIO_Signed.pdf,2024-12,No,Floor clause: agencies cannot be more lenient than statewide
+New Hampshire (NHDOT),Northeast,ENCOURAGE,No,State CIO + statute (HB 1688),https://mm.nh.gov/files/uploads/doit/documents/sonh-use-of-artificial-intelligence-technologies-policy.pdf,2024-07,No,Mandatory disclosure if AI content unedited
+New Jersey (NJDOT),Northeast,ENCOURAGE,No,State CIO (OIT Circular),https://nj.gov/it/docs/ps/25-OIT-001-State-of-New-Jersey-Guidance-on-Responsible-Use-of-Generative-AI.pdf,2025,Yes,Mandatory Responsible AI for Public Professionals course
+New Mexico (NMDOT),West,SILENT,No,None at DOT level,https://www.nmlegis.gov/Sessions/24%20Regular/bills/house/HB0184.HTML,2024,No,HB0184 only requires AI inventory
+New York (NYSDOT),Northeast,SILENT,No,State CIO formally (effectively SILENT at DOT),https://its.ny.gov/acceptable-use-artificial-intelligence-technologies,2024-01,No,OSC audit April 2025 flagged NYSDOT for no in-house policy while piloting 3 AI systems
+North Carolina (NCDOT),South,ENCOURAGE,No,Governor EO 24,https://governor.nc.gov/executive-order-no-24-advancing-trustworthy-artificial-intelligence-benefits-all-north-carolinians,2025,No,Largest live statewide AI traffic-signal deployment in the U.S.
+North Dakota (NDDOT),Midwest,PARTIAL,No,State CIO (NDIT),https://www.ndit.nd.gov/artificial-intelligence-guidelines,2024,No,Softest posture in Midwest; guideline not prohibition
+Ohio (ODOT),Midwest,FORBID,No,State CIO (DAS),https://digitalgovernmenthub.org/examples/it-17-use-of-artificial-intelligence-in-state-of-ohio-solutions/,2023,Yes,DAS IT-17 explicitly applies to state employees + contractors + temporary personnel
+Oklahoma (ODOT-OK),South,FORBID,No,State CIO (OMES),https://oklahoma.gov/content/dam/ok/en/omes/documents/use-of-ai-in-oklahoma-standard.pdf,2024,No,Termination consequence for federally-protected data uploads
+Oregon (ODOT),West,ENCOURAGE,No,State CIO (EIS),https://www.oregon.gov/eis/cyber-security-services/Documents/Interim_AI_Guidelines_V1.5%201.pdf,2024,No,Publishes public AI Research Tools Guide
+Pennsylvania (PennDOT),Northeast,ENCOURAGE,No,Governor EO + 4 Pa. Code KKK,https://www.pa.gov/agencies/oa/programs/information-technology2/gen-ai,2023-09,No,ChatGPT Enterprise pilot 2024-2025
+Puerto Rico (DTOP),Northeast,SILENT,No,None,,N/A,No,Puerto Rico AI Act bill pending; not enacted
+Rhode Island (RIDOT),Northeast,SILENT,No,None active,https://etss.ri.gov/data-and-ai/rhode-island-ai-task-force,2024,No,AI Action Plan only; embrace not regulate
+South Carolina (SCDOT),South,ENCOURAGE,No,Statewide AI Strategy (vision-level),https://admin.sc.gov/SCAIStrategy,2024-06,No,Three Ps: Protect Promote Pursue
+South Dakota (SDDOT),Midwest,PARTIAL,No,State CIO (BIT),https://www.sd.gov/bit?id=bit_standards_ai_guidance,2024,No,Best-practice guidance not prohibition
+Tennessee (TDOT),South,ENCOURAGE,No,State CIO (Enterprise GenAI Policy),https://www.tn.gov/content/dam/tn/finance/aicouncil/documents/TN%20Enterprise%20Generative%20AI%20Policy.pdf,2024,No,FY26 budget proposes $50M for AI infrastructure
+Texas (TxDOT),South,ENCOURAGE,Yes,DOT direct,https://www.txdot.gov/about/leadership/strategic-plans/txdot-artificial-intelligence-strategic-plan-update.html,2026-01,No,22000 staff hours saved on invoice automation; M365 Copilot to 940+ staff
+Utah (UDOT),West,ENCOURAGE,No,State + UAIPA,https://le.utah.gov/~2024/bills/static/SB0149.html,2024-05,No,UAIPA imposes consumer-facing GenAI disclosure
+Vermont (VTrans),Northeast,ENCOURAGE,No,State CIO (ADS),https://digitalservices.vermont.gov/ai,2022,No,Center for Enablement model
+Virginia (VDOT),South,ENCOURAGE,No,State CIO (VITA) + EO 30/46,https://www.vita.virginia.gov/media/vitavirginiagov/it-governance/ea/pdf/Utilization-of-Artificial-Intelligence-by-COV-Policy-Standard.pdf,2024-06,No,Piloting AI for cost estimation + pavement management with Deloitte
+Washington (WSDOT),West,ENCOURAGE,No,State CIO (WaTech) + EO 24-01,https://watech.wa.gov/policies/interim-guidelines-purposeful-and-responsible-use-generative-artificial-intelligence-ai-washington,2024-01,No,Adopted as statewide IT policy Dec 11 2025
+West Virginia (WVDOT),South,SILENT,No,None active,https://technology.wv.gov/policy-governance/artificial-intelligence,2024,No,WVOT AUP listed coming soon
+Wisconsin (WisDOT),Midwest,SILENT,No,None at DOT level,https://wisconsindot.gov/documents2/research/0092-24-14-final-report.pdf,2024,No,Research-leaning posture; no use policy
+Wyoming (WYDOT),West,SILENT,No,None active,https://ai.wyo.gov/,N/A,No,District-led approach; no DOT AI policy
