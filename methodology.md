@@ -11,12 +11,15 @@ How the Transportation AI Policy Tracker classifies each entity.
 Sources searched, in order:
 
 1. The state DOT's own website (search terms: "artificial intelligence," "AI policy," "generative AI," "machine learning policy," "acceptable use policy AI," "ChatGPT").
-2. The state CIO / Office of Information Technology / Department of Information Services published policies covering all executive-branch agencies (which includes the DOT).
+2. The state CIO / Office of Information Technology / Department of Information Services published policies covering all executive-branch agencies (which includes the DOT). Includes `its.[state].gov` and equivalent subdomains.
 3. Governor executive orders affecting state AI use.
 4. Statewide statutes and codified rules (where they apply directly to AI use by state employees and contractors).
 5. State Comptroller / Inspector General audits that specifically called out the DOT (e.g., NY OSC audit, April 2025).
+6. The state's primary `.gov` root and government directory pages, as a backstop for documents that are hosted under a state-IT subdomain rather than the DOT.
 
-If no AI-specific policy was found at any of those levels, the entity is classified as SILENT. Silent does not mean permitted — most silent entities still inherit a general IT acceptable-use policy that may limit AI use in practice, even when no AI-specific document exists.
+Each PDF located is text-extracted with a length check (>500 characters of readable text). If extraction returns an empty or near-empty string, the PDF is re-processed with `pdftotext -layout` or downloaded for manual reading before being classified. This guard was added on 2026-05-11 after the Idaho AI-PSG was found to live on the state IT portal under a misleading URL path and to require layout-aware extraction to read cleanly. See [CORRECTIONS.md](CORRECTIONS.md) for the full incident note.
+
+If no AI-specific policy is found at any of those levels, the entity is classified as SILENT. Silent does not mean permitted — most silent entities still inherit a general IT acceptable-use policy that may limit AI use in practice, even when no AI-specific document exists.
 
 ---
 

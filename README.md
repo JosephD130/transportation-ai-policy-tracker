@@ -43,14 +43,16 @@ The Tracker is published in installments:
 
 - **52 entities surveyed.**
 - **10 FORBID** putting non-public agency data into commercial GenAI.
-- **27 ENCOURAGE** with stated guardrails.
+- **28 ENCOURAGE** with stated guardrails.
 - **3 PARTIAL** (hybrid / guideline-only postures).
-- **12 SILENT** (no AI-specific policy at any level).
+- **11 SILENT** (no AI-specific policy at any level).
 - **Only 4 DOTs publish their own AI policy:** MnDOT (IT-003), MoDOT (Employee Conduct), FDOT (May 2024), TxDOT (Strategic Plan FY 2025-2027).
 - **48 of 52 inherit** their AI policy from the state CIO, OIT, OCTO, or a Governor's executive order.
-- **Only 7 states extend AI rules to contractors:** Iowa, Kansas, Ohio, Minnesota, Louisiana, DC, New Jersey.
+- **8 states extend AI rules to contractors:** Iowa, Kansas, Ohio, Minnesota, Louisiana, DC, New Jersey, Idaho.
 
-Strong regional split: Midwest forbids most (8 of 12). West permits most (0 of 13 forbid). Northeast publishes the most formal frameworks (10 of 13 ENCOURAGE). South splits between two operational leaders (FDOT, TxDOT) and a few silent states.
+Strong regional split: Midwest forbids most (8 of 12). West permits most (0 of 13 forbid; 8 ENCOURAGE). Northeast publishes the most formal frameworks (10 of 13 ENCOURAGE). South splits between two operational leaders (FDOT, TxDOT) and a few silent states.
+
+*Updated 2026-05-11 — Idaho reclassified from SILENT to ENCOURAGE (binds contractors) after the state's AI-PSG (Aug 2025) was identified. See [CORRECTIONS.md](CORRECTIONS.md).*
 
 ---
 

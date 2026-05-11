@@ -18,10 +18,10 @@ Total: **52 entities** (50 states + DC + PR).
 | Bucket | Count | % | Verbatim definition |
 |---|---|---|---|
 | **FORBID** | 10 | 19% | Explicitly prohibits non-public agency data into commercial GenAI tools. Hard ban or termination-grade language. |
-| **ENCOURAGE (with guardrails)** | 27 | 52% | Permits AI use under stated conditions: training, supervisor approval, human-in-the-loop, data classification, named tools only. |
+| **ENCOURAGE (with guardrails)** | 28 | 54% | Permits AI use under stated conditions: training, supervisor approval, human-in-the-loop, data classification, named tools only. |
 | **PARTIAL / hybrid / restricted** | 5 | 10% | Mix of forbid + encourage signals. Or guideline-flavored, no enforcement. |
-| **SILENT (no operative policy at any level)** | 10 | 19% | No published AI-specific policy at the DOT or parent state level as of April 2026. |
-| **Total** | **52** | **100%** | |
+| **SILENT (no operative policy at any level)** | 9 | 17% | No published AI-specific policy at the DOT or parent state level as of April 2026. |
+| **Total** | **52** | **100%** | *Idaho reclassified ENCOURAGE on 2026-05-11 (was SILENT); see [CORRECTIONS.md](./CORRECTIONS.md).* |
 
 ---
 
@@ -30,10 +30,10 @@ Total: **52 entities** (50 states + DC + PR).
 | Region | FORBID | ENCOURAGE | PARTIAL | SILENT | Total |
 |---|---|---|---|---|---|
 | Midwest | 8 | 0 | 3 | 1 | 12 |
-| West | 0 | 7 | 0 | 6 | 13 |
+| West | 0 | 8 | 0 | 5 | 13 |
 | South | 2 | 9 | 0 | 3 | 14 |
 | Northeast (+ DC + PR) | 0 | 11 | 0 | 2 | 13 |
-| **Total** | **10** | **27** | **3** | **12** | **52** |
+| **Total** | **10** | **28** | **3** | **11** | **52** |
 
 *Hybrid/partial counts vary slightly by interpretation across regions; see component files for the exact bucket reasoning per state.*
 
@@ -138,6 +138,7 @@ For consulting PMs, this is the single most important dimension. States that exp
 | **Louisiana** | "Agencies shall submit all software, applications, tools, and services utilizing AI for business operations to OTS for review prior to procurement and implementation." (Procurement gate effectively binds vendors and consultants.) |
 | **DC** | First major US city to mandate Responsible AI training for **all gov employees + contractors**. |
 | **NJ** | Mandatory "Responsible AI for Public Professionals" course for state employees; flow-down to consultants likely. |
+| **Idaho** | AI-PSG §1.3 and §2.1 explicitly bind "all State of Idaho employees, contractors, sub-contractors, and their respective facilities supporting official State business operations." (Added 2026-05-11; see [CORRECTIONS.md](./CORRECTIONS.md).) |
 
 Almost every other state's policy applies to "state employees" only and is silent on contractors. **For a consulting PM, the practical answer to "can I use AI on this project" depends on (1) the contract's specific AI clauses, (2) whether the state extends its policy to consultants, and (3) the federal funding layer.**
 

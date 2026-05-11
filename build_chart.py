@@ -112,17 +112,18 @@ def build_chart():
     ax2.text(0.5, headline_y - 2 * line_h - 0.27, "state CIO • OIT • OCTO • Governor EO",
              ha="center", fontsize=9, color="#7f8c8d", transform=ax2.transAxes)
 
-    # 7 contractor-binding
-    ax2.text(0.5, headline_y - 3 * line_h - 0.22, "7", ha="center", fontsize=28,
+    # 8 contractor-binding (was 7 prior to Idaho correction on 2026-05-11)
+    contractor_count = sum(1 for r in rows if r["contractor_binding"] == "Yes")
+    ax2.text(0.5, headline_y - 3 * line_h - 0.22, str(contractor_count), ha="center", fontsize=28,
              fontweight="bold", color="#2c3e50", transform=ax2.transAxes)
     ax2.text(0.5, headline_y - 3 * line_h - 0.31, "states bind contractors",
              ha="center", fontsize=10, transform=ax2.transAxes)
-    ax2.text(0.5, headline_y - 3 * line_h - 0.36, "IA • KS • OH • MN • LA • DC • NJ",
+    ax2.text(0.5, headline_y - 3 * line_h - 0.36, "IA • KS • OH • MN • LA • DC • NJ • ID",
              ha="center", fontsize=9, color="#7f8c8d", transform=ax2.transAxes)
 
     # Footer
     fig.text(0.5, 0.005,
-             "Transportation AI Policy Tracker, installment 1 of 4 (state DOT layer), pulled 2026-04-29",
+             "Transportation AI Policy Tracker, installment 1 of 4 (state DOT layer), refreshed 2026-05-11",
              ha="center", fontsize=8, color="#7f8c8d", style="italic")
 
     plt.suptitle("Building the Transportation AI Policy Tracker: the state DOT layer",
